@@ -1,0 +1,17 @@
+{
+    "name": "leocavalcante/viewi-swoole",
+    "description": "Serving a Viewi application with a Swoole server",
+    "type": "project",
+    "require-dev": {
+        "viewi/viewi": "^0.1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
