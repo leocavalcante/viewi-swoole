@@ -3,7 +3,7 @@
 use Viewi\PageEngine;
 
 const VIEWI_COMPONENTS = __DIR__ . '/Components';
-const PUBLIC_FOLDER = __DIR__ . '/../';
+const PUBLIC_FOLDER = __DIR__ . '/../public';
 
 return [
     PageEngine::SOURCE_DIR =>  VIEWI_COMPONENTS,
