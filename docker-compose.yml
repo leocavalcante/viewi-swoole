@@ -1,0 +1,14 @@
+version: '3'
+services:
+  image:
+    container_name: viewi-swoole-image-builder
+    image: viewi-swoole
+    build: .
+
+  php:
+    container_name: viewi-swoole-php
+    image: viewi-swoole
+    tty: true
+    entrypoint: sh
+    volumes:
+      - ./:/opt/viewi-swoole
