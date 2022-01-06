@@ -2,9 +2,6 @@
     "name": "leocavalcante/viewi-swoole",
     "description": "Serving a Viewi application with a Swoole server",
     "type": "project",
-    "require-dev": {
-        "viewi/viewi": "^0.1.4"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -13,5 +10,17 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=8.1",
+        "viewi/viewi": "^0.1.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "swoole/ide-helper": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Components\\": "viewi-app/Components/"
+        }
+    }
 }
