@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6ede5e223b542c3327d6e4f54ba2aaa",
+    "content-hash": "6913cf96827ea78335ff23460b057453",
     "packages": [
         {
             "name": "viewi/viewi",
@@ -537,7 +537,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.1"
+        "php": ">=8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"

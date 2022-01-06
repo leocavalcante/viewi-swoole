@@ -12,3 +12,9 @@ services:
     entrypoint: sh
     volumes:
       - ./:/opt/viewi-swoole
+    ports:
+      - "9501:9501"
+
+networks:
+  default:
+    name: viewi-swoole-network

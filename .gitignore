@@ -1,2 +1,4 @@
-composer.phar
-vendor/
+/composer.phar
+/public/viewi-build/
+/vendor/
+/viewi-app/build/
